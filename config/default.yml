@@ -1,0 +1,2 @@
+port: 7500
+domain: "http://localhost:7500"

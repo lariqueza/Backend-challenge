@@ -1,0 +1,24 @@
+{
+  "name": "microservice-bootstrap",
+  "version": "1.0.0",
+  "description": "An opinionated microservice framework for quick bootstrapping of code",
+  "scripts": {
+    "start": "nodemon -r esm lib/app.js"
+  },
+  "author": "cohire/lacunadream",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "body-parser": "^1.15.2",
+    "config": "^3.2.4",
+    "dateformat": "^3.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.14.0",
+    "express-jwt": "^6.1.0",
+    "express-winston": "^2.4.0",
+    "js-yaml": "^3.8.3",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
